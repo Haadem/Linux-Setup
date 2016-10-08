@@ -1,0 +1,4 @@
+
+ to refresh the shared libs cache for that specific di
+sudo ldconfig /usr/local/cuda-7.5/lib64
+

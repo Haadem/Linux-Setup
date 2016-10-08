@@ -1,0 +1,9 @@
+nc -v -z 192.168.0.13
+
+nc -zvv localhost 27017
+
+
+ps -ax | grep mongo
+
+systemctl enable mongod
+
